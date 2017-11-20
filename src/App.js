@@ -51,7 +51,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React Todo List</h1>
         </header>
         
-        <p>Todo's count : {this.state.todos.length}</p>
+        <p>Todos count : {this.state.todos.length}</p>
         <input type="text" placeholder="Enter Todo" ref={(input) => this.todoInput = input}/>
         <button onClick={this.addTodo.bind(this)}>Add</button>
         <ol>
